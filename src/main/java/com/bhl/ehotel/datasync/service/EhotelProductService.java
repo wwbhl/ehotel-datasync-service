@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@FeignClient(value = "eshop-product-service")
+@FeignClient(value = "ehotel-product-service")
 public interface EhotelProductService {
 
     @RequestMapping(value = "/brand/findById",method = RequestMethod.GET)
